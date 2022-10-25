@@ -25,6 +25,7 @@ class CardDeck {
     for (let i = 0 ; i < howMany; i++){
       arr.push(this.getCard())
     }
+    return arr
   }
 }
 
